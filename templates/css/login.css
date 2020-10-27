@@ -1,0 +1,149 @@
+body{
+    background-color: #80808038;
+}
+.container{
+    background-color: white;
+        width: 30%;
+        float: left;
+        margin: 18px;
+        height: 460px;
+        border-radius: 2px;
+        overflow: hidden;
+        border: #D7CACA solid 1px;
+}
+.header{
+    height: 136px;
+  background-color: red;
+  background-image: linear-gradient(to right , orange,red);
+  opacity: 0.5;
+}
+.loginarea{
+        text-align: center;
+    padding-top: 4px;
+    color: white;
+    font-size: 19px;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+.loginarea i{
+    padding: 8px;
+}
+.emailText{
+        width: 100%;
+    font-size: 14px;
+    height: 45px;
+    margin-top: 40px;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 0px;
+}
+.emailText:focus{
+    border: none;
+    border-bottom: 1px solid;
+}
+form{
+    margin: 19px 45px 0px 40px;
+margin-top: 19px;}
+input:focus {
+    outline: none !important;
+}
+input{
+    margin: 6px;
+    border: none;
+    border-bottom:1px  solid;
+}
+.forgetpas{
+        float: right;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+}
+.login-signup{
+    display: flex;
+}
+.login-signup p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    margin-left: 20px;
+}
+.loginbtn{
+    text-align: center;
+    color: white;
+    border-radius: 2rem;
+    height: 36px;
+    width: 92px;
+    background-color: grey;
+}
+.signupform2{
+    color: #ED0C7D;
+    font-family: sans-serif;
+    font-size: 22px;
+    margin-top: 21px;
+    position: absolute;
+    margin-left: 126px;
+}
+.login-button {
+    text-align: center;
+    color: white;
+    margin-top: 49px;
+    border-radius: 2rem;
+    height: 36px;
+    width: 110px;
+    background-color: #ED0C7D;
+    opacity: 0.9;
+}
+.terms-checkbox{
+    position: relative;
+}
+.terms-accept{
+        display: inline-block;
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+}
+.term-para{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    position: relative;
+    top: -40px;
+    left: 166px;;
+}
+.icons-div{
+    background-color: grey;
+    color: white;
+    text-align: center;
+    height:78px;
+    padding-top: 19px;
+}
+.icons-div i{
+    padding: 8px;
+}
+.signin-third{
+    color: black;
+}
+.third-div{
+    color: blue;
+}
+.btn-third  {
+    width:100%;
+    background-color: #03022A;
+    background-image: linear-gradient(to right , #8D8BBA,#0404D7);
+}
+.emailpass-last:hover{
+    color: blue;
+}
+.signup-third{
+    text-align: center;
+    color: black;
+}
+.thirddiv-icons{
+    color: black;
+    text-align: center;
+}
+.thirddiv-icons i{
+    color: blue;
+    height: 23px;
+    padding-top: 7px;
+    width: 57px;
+    border-radius: 1rem;
+    box-shadow: -3px 9px 14px -8px rgba(0,0,0,0.75);
+    font-size: 14px;
+}
